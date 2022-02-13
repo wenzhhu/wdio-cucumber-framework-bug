@@ -1,5 +1,5 @@
-# wdio-cucumber-framework-bug
-Repo for bug reproduction
+# wdio-cucumber-framework-bug-8007
+Repo for bug reproduction https://github.com/webdriverio/webdriverio/issues/8007
 
 Steps to reproduce:
 - Use Node js v12+ (I used 14.18.3)
