@@ -18,7 +18,7 @@ The same for allure-report
 ## Root cause
 This issue is caused by change https://github.com/webdriverio/webdriverio/pull/7777 for wdio-cucumber-framework introduced in verion 7.16.11 https://github.com/webdriverio/webdriverio/blob/v7.16.11/CHANGELOG.md
 
-The skipped steps are emitted as event "test:skip" in @wdio/cucumber-frame which however is not listened by wdio-reporter which only listens on event "test:pending" for now. Consequently, reporters such as spec and allure which extends wdio-reporter are broken now.
+The skipped steps are emitted as event "test:skip" in @wdio/cucumber-framework which however is not listened by wdio-reporter which only listens on event "test:pending" for now. Consequently, reporters such as spec and allure which extends wdio-reporter are broken now.
 
 
 ## Expected behaviour
